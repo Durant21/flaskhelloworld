@@ -9,7 +9,7 @@ app.logger.info('%s logged successfully','start - ')
 
 @app.route('/')
 def main():
-    return "Hello world"
+    return "Hello world 11:32"
 
 if __name__ == "__main__":
     print('name=main', flush=True)
