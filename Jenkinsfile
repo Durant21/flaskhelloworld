@@ -29,8 +29,7 @@ pipeline {
                                 ],
                                 transfers: [
                                     sshTransfer(
-                                        sourceFiles: 'dist/requirements.txt',
-                                        removePrefix: 'dist/',
+                                        sourceFiles: 'requirements.txt',
                                         remoteDirectory: '/apps'
                                     )
                                 ]
